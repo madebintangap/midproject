@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./media/diamond.png">
+    <title>Home | I Made Bintang Ardhia Pangestu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="#default" class="Logo">I Made Bintang Ardhia Pangestu</a>
+        <div class="navbar-right">
+            <a class="active" href="#aboutMe">About Me</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </div>
+   </div>
+
+   <div class="greet">
+        <h1 id="sapaan">Hello!</h1>
+        <p id="konten-sapaan">My name is I Made Bintang Ardhia Pangestu. I live in Jakarta, Indonesia.</p>
+   </div>
+
+   <div id="aboutMe">
+        <h1 id="judul-aboutMe">About Me</h1>
+        <p id="konten-aboutMe">A first year student at Bina Nusantara University majoring in Industrial Engineering. I'm interested in learning more about industrial and business things and also eager to learn new things. </p>
+        <img id="foto-diri" src="./media/Kelompok 1.jpeg" alt="">
+   </div>
+
+    <div id="portfolio">
+        <h1 id="judul-portfolio">Portfolio</h1>
+        <h3 id="judul1">Part of Beast E-Sports as a Poster Editor</h3>
+        <p id="konten1">Made scrim event poster to be post on Instagram using Adobe Photoshop</p>
+        <h3 id="judul2">Part of Keluarga Pemuda/i Sukaduka Hindu Dharma Jakarta Utara as an Activist</h3>
+        <p id="konten2">Successfully created a competition to celebrate Indonesia Independence Day with 50+ participants</p>
+    </div>
+
+    <div id="contact">
+        <h1 id="contact-me">Contact Me</h1>
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Indonesia</option>
+            <option value="australia">Singapore</option>
+            <option value="australia">Malaysia</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+
+</body>
+</html>

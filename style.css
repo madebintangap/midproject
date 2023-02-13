@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background-color: #bee3ec;
+    padding: 25px 20px 25px 20px; 
+}
+
+.navbar a{
+    font-size: 18px;
+    line-height: 25px;
+    display:contents;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+}
+
+.navbar .a.logo{
+    text-align: left;
+    font-size: 25px;
+    }
+
+.navbar a:hover{
+    font-weight: 700;
+    color: rgb(255, 0, 0);
+}
+
+.navbar-right{
+    float: right;
+    padding-right: 100px;
+
+}
+
+.navbar-right a{
+    padding-right: 100px;
+}
+
+.greet{
+    text-align: center;
+    padding-top: 15vw;
+    padding-bottom: 20vw;
+}
+
+.greet #sapaan{
+    font-size: 75px;
+}
+
+.greet #konten-sapaan{
+    font-size: 25px;
+    padding-top: 2vw;
+}
+
+#aboutMe{
+    display: block;
+    text-align: center;
+    padding-top: 5vw;
+    padding-bottom: 2vw;
+}
+
+#aboutMe #konten-aboutMe{
+    padding-top: 3vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+#aboutMe #foto-diri{
+    padding-top: 8vw;
+    width: 20vw;
+    border-radius: 50%;
+}
+
+#portfolio{
+    text-align: center;
+    padding-top: 5vw;
+    padding-bottom: 25vw;
+}
+
+#portfolio #judul1{
+    padding-top: 8vw;
+    padding-left: 10vw;
+    text-align: left;   
+}
+
+#portfolio #konten1{
+    padding-top: 2vw;
+    padding-left: 10vw;
+    text-align: left;
+}
+
+#portfolio #judul2 {
+    padding-top: 16vw;
+    padding-right: 10vw;
+    text-align: right;
+}
+
+#portfolio #konten2 {
+    padding-top: 2vw;
+    padding-right: 10vw;
+    text-align: right;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+}
+
+input[type=submit] {
+    background-color: #bee3ec;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+#contact {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding-right: 5vw;
+    padding-left: 5vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+
+#contact-me{
+    text-align: center;
+    padding-bottom: 2vw;
+}
+
+
+
+   
